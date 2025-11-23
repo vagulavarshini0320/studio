@@ -13,10 +13,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     
-    --primary: 190 65% 35%;
+    --primary: 190 82% 35%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 240 4.8% 95.9%;
+    --secondary: 190 30% 96%;
     --secondary-foreground: 240 5.9% 10%;
 
     --muted: 190 30% 96%;
@@ -30,7 +30,7 @@
 
     --border: 190 20% 90%;
     --input: 190 20% 90%;
-    --ring: 190 65% 35%;
+    --ring: 190 82% 35%;
     
     --radius: 0.5rem;
     
@@ -51,7 +51,7 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
     
-    --primary: 190 65% 45%;
+    --primary: 190 82% 45%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -68,7 +68,7 @@
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 190 65% 45%;
+    --ring: 190 82% 45%;
     
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
@@ -121,11 +121,11 @@
       hsl(var(--background)),
       hsl(var(--accent))
     );
-    background-size: 400% 400%;
-    animation: background-pan 15s ease-in-out infinite;
+    background-size: 200% 200%;
+    animation: background-pan 25s ease-in-out infinite;
   }
   
-  .btn-gradient {
+  .btn-gradient, .footer-gradient {
     background: linear-gradient(45deg, #4285F4, #DB4437, #F4B400, #0F9D58);
     background-size: 400% 400%;
     animation: gradient-animation 10s ease infinite;
@@ -136,6 +136,12 @@
   }
 
   @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes background-pan {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
