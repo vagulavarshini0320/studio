@@ -30,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={cn(fontBody.variable, fontHeadline.variable, "font-body antialiased bg-background text-foreground animate-background-pan")}>
+    <html lang="en">
+      <body className={cn(fontBody.variable, fontHeadline.variable, "font-body antialiased bg-white text-gray-800")}>
         <Header />
         <main className="min-h-screen">
           {children}
