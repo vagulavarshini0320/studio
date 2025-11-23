@@ -26,7 +26,7 @@ export default function Home() {
               priority
             />
           )}
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent"></div>
         </div>
         
         <div className="container mx-auto px-4 md:px-6">
