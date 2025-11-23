@@ -34,7 +34,7 @@ export default function Header() {
     <header
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
-        isScrolled ? 'border-b border-border bg-background/95 backdrop-blur-sm' : 'bg-transparent'
+        isScrolled ? 'border-b border-border bg-background/80 backdrop-blur-sm' : 'bg-transparent'
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
@@ -43,13 +43,13 @@ export default function Header() {
           <span className="text-xl font-bold font-headline">VV Software</span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-2">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               className={cn(
-                'px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary hover:bg-muted',
+                'px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary',
                 pathname === link.href ? 'text-primary bg-muted' : 'text-muted-foreground'
               )}
             >
@@ -59,7 +59,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild className="hidden sm:inline-flex">
+          <Button asChild className="hidden sm:inline-flex" variant="outline">
             <Link href="/contact">Get Quote</Link>
           </Button>
           <div className="md:hidden">

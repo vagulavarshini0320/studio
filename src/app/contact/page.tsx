@@ -11,14 +11,14 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-lg text-muted-foreground text-center max-w-2xl mx-auto mb-12">
-            Have a question or a project in mind? We'd love to hear from you.
+            Engage with our solution architects to discuss your project requirements or to schedule a demo.
           </p>
         </AnimatedSection>
         
         <div className="grid lg:grid-cols-5 gap-12">
           <AnimatedSection className="lg:col-span-3">
-            <div className="p-8 rounded-lg bg-muted">
-              <h2 className="font-headline text-3xl font-bold mb-6">Send us a Message</h2>
+            <div className="p-8 rounded-lg bg-card border border-border/50">
+              <h2 className="font-headline text-3xl font-bold mb-6">Submit an Inquiry</h2>
               <ContactForm />
             </div>
           </AnimatedSection>
@@ -27,29 +27,29 @@ export default function ContactPage() {
             <h2 className="font-headline text-3xl font-bold">Contact Information</h2>
             <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg mt-1">
+                    <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
                         <Mail className="w-5 h-5 text-primary" />
                     </div>
                     <div>
                         <h3 className="font-semibold text-lg">Email</h3>
-                        <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground hover:text-primary">vishwarajaofficial@gmail.com</a>
+                        <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">vishwarajaofficial@gmail.com</a>
                     </div>
                 </div>
                 <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg mt-1">
+                    <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
                         <Phone className="w-5 h-5 text-primary" />
                     </div>
                     <div>
                         <h3 className="font-semibold text-lg">Phone</h3>
-                        <a href="tel:893920811" className="text-muted-foreground hover:text-primary">893920811</a>
+                        <a href="tel:893920811" className="text-muted-foreground hover:text-primary transition-colors">893920811</a>
                     </div>
                 </div>
                  <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg mt-1">
+                    <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
                         <MapPin className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                        <h3 className="font-semibold text-lg">Office</h3>
+                        <h3 className="font-semibold text-lg">Headquarters</h3>
                         <p className="text-muted-foreground">
                             123 Tech Park, Silicon Valley,<br/>
                             Chennai, India
