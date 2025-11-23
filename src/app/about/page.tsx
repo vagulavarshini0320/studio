@@ -65,8 +65,8 @@ export default function AboutPage() {
             <AnimatedSection delay={200}>
               <Card className="h-full text-left">
                 <CardHeader>
-                  <div className="bg-green-500/10 p-3 rounded-lg w-fit mb-4">
-                    <Zap className="w-6 h-6 text-green-500"/>
+                  <div className="bg-secondary/10 p-3 rounded-lg w-fit mb-4">
+                    <Zap className="w-6 h-6 text-secondary"/>
                   </div>
                   <CardTitle className="font-headline text-xl">Quality</CardTitle>
                 </CardHeader>
@@ -80,8 +80,8 @@ export default function AboutPage() {
              <AnimatedSection delay={300}>
               <Card className="h-full text-left">
                 <CardHeader>
-                  <div className="bg-yellow-500/10 p-3 rounded-lg w-fit mb-4">
-                    <Users className="w-6 h-6 text-yellow-500"/>
+                  <div className="bg-accent/10 p-3 rounded-lg w-fit mb-4">
+                    <Users className="w-6 h-6 text-accent"/>
                   </div>
                   <CardTitle className="font-headline text-xl">Client Success</CardTitle>
                 </CardHeader>
@@ -95,8 +95,8 @@ export default function AboutPage() {
              <AnimatedSection delay={400}>
               <Card className="h-full text-left">
                 <CardHeader>
-                  <div className="bg-red-500/10 p-3 rounded-lg w-fit mb-4">
-                    <Eye className="w-6 h-6 text-red-500"/>
+                  <div className="bg-destructive/10 p-3 rounded-lg w-fit mb-4">
+                    <Eye className="w-6 h-6 text-destructive"/>
                   </div>
                   <CardTitle className="font-headline text-xl">Transparency</CardTitle>
                 </CardHeader>

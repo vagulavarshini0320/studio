@@ -57,8 +57,8 @@ export default function ServicesPage() {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {includedFeatures.map((feature) => (
                     <li key={feature} className="flex items-center gap-3">
-                      <div className="bg-green-500/10 p-1 rounded-full">
-                        <Check className="h-4 w-4 text-green-500" />
+                      <div className="bg-secondary/10 p-1 rounded-full">
+                        <Check className="h-4 w-4 text-secondary" />
                       </div>
                       <span className="text-muted-foreground">{feature}</span>
                     </li>
