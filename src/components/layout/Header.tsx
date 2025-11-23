@@ -68,7 +68,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild className="hidden sm:inline-flex">
+          <Button asChild className="hidden sm:inline-flex bg-gray-800 text-white hover:bg-gray-700">
             <Link href="/contact">Get Quote</Link>
           </Button>
           <div className="md:hidden">
@@ -109,7 +109,7 @@ export default function Header() {
                     ))}
                   </nav>
                    <div className="mt-auto p-4 border-t">
-                     <Button asChild className="w-full">
+                     <Button asChild className="w-full bg-gray-800 text-white hover:bg-gray-700">
                         <Link href="/contact" onClick={closeMobileMenu}>Get Quote</Link>
                     </Button>
                    </div>
