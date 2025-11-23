@@ -15,7 +15,7 @@ export const services: Service[] = [
   },
   {
     title: 'Website Development',
-    price: '₹22,000',
+    price: '₹7,000',
     icon: Monitor,
   },
   {
