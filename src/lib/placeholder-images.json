@@ -3,19 +3,19 @@
     {
       "id": "founder",
       "description": "Photo of the founder, Vishwa Raja",
-      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjM4MDkyNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/assets/founder.png",
       "imageHint": "man portrait"
     },
     {
       "id": "map",
       "description": "Placeholder map of company location",
-      "imageUrl": "https://images.unsplash.com/photo-1548345680-f5475ea5df84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYXAlMjBsb2NhdGlvbnxlbnwwfHx8fDE3NjM4NTQ2Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/assets/map.png",
       "imageHint": "map location"
     },
     {
       "id": "hero",
       "description": "Abstract technology background showing software symbols and product development",
-      "imageUrl": "https://images.unsplash.com/photo-1579403124614-197f69d8187b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc2Mzc5NTMxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/assets/hero.png",
       "imageHint": "software development"
     }
   ]
