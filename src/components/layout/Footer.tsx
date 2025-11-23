@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4 md:col-span-4">
             <Link href="/" className="flex items-center gap-2">
               <Code2 className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold font-headline">VV Software</span>
+              <span className="text-xl font-bold font-headline">VV Software Developer</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
               Engineering enterprise-grade software solutions for a complex world.

@@ -40,7 +40,7 @@ export default function Header() {
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
           <Code2 className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold font-headline">VV Software</span>
+          <span className="text-xl font-bold font-headline">VV Software Developer</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-2">
@@ -75,7 +75,7 @@ export default function Header() {
                   <div className="flex items-center justify-between p-4 border-b">
                      <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
                       <Code2 className="h-8 w-8 text-primary" />
-                      <span className="text-xl font-bold font-headline">VV Software</span>
+                      <span className="text-xl font-bold font-headline">VV Software Developer</span>
                     </Link>
                   </div>
                   <nav className="flex flex-col gap-2 p-4 text-lg">
