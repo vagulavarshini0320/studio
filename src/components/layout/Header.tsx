@@ -34,8 +34,8 @@ export default function Header() {
   return (
     <header
       className={cn(
-        'sticky top-0 z-50 w-full transition-all duration-300 footer-gradient text-primary-foreground',
-        isScrolled ? 'shadow-lg' : ''
+        'sticky top-0 z-50 w-full transition-shadow duration-300 bg-background/80 backdrop-blur-sm',
+        isScrolled ? 'shadow-md' : ''
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
@@ -47,7 +47,7 @@ export default function Header() {
             height={50} 
             data-ai-hint="W logo"
           />
-          <span className="text-xl font-bold font-headline">VV Software Developer</span>
+          <span className="text-xl font-bold font-headline text-foreground">VV Software Developer</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-2">
@@ -56,8 +56,8 @@ export default function Header() {
               key={link.href}
               href={link.href}
               className={cn(
-                'px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-white/10',
-                pathname === link.href ? 'bg-white/20' : 'text-primary-foreground/80'
+                'px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground',
+                pathname === link.href ? 'bg-accent text-accent-foreground' : 'text-muted-foreground'
               )}
             >
               {link.label}
@@ -66,13 +66,13 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild className="hidden sm:inline-flex bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+          <Button asChild className="hidden sm:inline-flex">
             <Link href="/contact">Get Quote</Link>
           </Button>
           <div className="md:hidden">
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" className="hover:bg-white/10">
+                <Button variant="ghost" size="icon">
                   <Menu className="h-6 w-6" />
                   <span className="sr-only">Open menu</span>
                 </Button>
