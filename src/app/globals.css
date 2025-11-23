@@ -111,3 +111,17 @@
      @apply opacity-100;
   }
 }
+
+@layer utilities {
+  .animate-background-pan {
+    background: linear-gradient(
+      -45deg,
+      hsl(var(--background)),
+      hsl(var(--muted)),
+      hsl(var(--background)),
+      hsl(var(--accent))
+    );
+    background-size: 400% 400%;
+    animation: background-pan 15s ease-in-out infinite;
+  }
+}

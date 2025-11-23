@@ -98,11 +98,17 @@ export default {
           '0%, 100%': { boxShadow: '0 0 20px 5px hsl(var(--primary) / 0.5)' },
           '50%': { boxShadow: '0 0 30px 10px hsl(var(--primary) / 0.7)' },
         },
+        'background-pan': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'glow': 'glow 4s ease-in-out infinite',
+        'background-pan': 'background-pan 15s ease-in-out infinite',
       },
     },
   },
