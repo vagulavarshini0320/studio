@@ -1,6 +1,5 @@
 import { Mail, Phone, MapPin } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection';
-import ContactForm from './ContactForm';
 
 export default function ContactPage() {
   return (
@@ -15,47 +14,42 @@ export default function ContactPage() {
           </p>
         </AnimatedSection>
         
-        <div className="grid lg:grid-cols-5 gap-12">
-          <AnimatedSection className="lg:col-span-3">
-            <div className="p-8 rounded-lg bg-card border">
-              <h2 className="font-headline text-3xl font-bold mb-6">Submit an Inquiry</h2>
-              <ContactForm />
-            </div>
-          </AnimatedSection>
-
+        <div className="flex justify-center">
           <AnimatedSection delay={200} className="lg:col-span-2 space-y-8">
-            <h2 className="font-headline text-3xl font-bold">Contact Information</h2>
-            <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
-                        <Mail className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                        <h3 className="font-semibold text-lg">Email</h3>
-                        <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">vishwarajaofficial@gmail.com</a>
-                    </div>
-                </div>
-                <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
-                        <Phone className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                        <h3 className="font-semibold text-lg">Phone</h3>
-                        <a href="tel:893920811" className="text-muted-foreground hover:text-primary transition-colors">893920811</a>
-                    </div>
-                </div>
-                 <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
-                        <MapPin className="w-5 h-5 text-primary" />
-                    </div>
-                    <div>
-                        <h3 className="font-semibold text-lg">Headquarters</h3>
-                        <p className="text-muted-foreground">
-                            123 Tech Park, Silicon Valley,<br/>
-                            Chennai, India
-                        </p>
-                    </div>
-                </div>
+            <div className="p-8 rounded-lg bg-card border">
+              <h2 className="font-headline text-3xl font-bold mb-6">Contact Information</h2>
+              <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                      <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
+                          <Mail className="w-5 h-5 text-primary" />
+                      </div>
+                      <div>
+                          <h3 className="font-semibold text-lg">Email</h3>
+                          <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">vishwarajaofficial@gmail.com</a>
+                      </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                      <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
+                          <Phone className="w-5 h-5 text-primary" />
+                      </div>
+                      <div>
+                          <h3 className="font-semibold text-lg">Phone</h3>
+                          <a href="tel:893920811" className="text-muted-foreground hover:text-primary transition-colors">893920811</a>
+                      </div>
+                  </div>
+                   <div className="flex items-start gap-4">
+                      <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
+                          <MapPin className="w-5 h-5 text-primary" />
+                      </div>
+                      <div>
+                          <h3 className="font-semibold text-lg">Headquarters</h3>
+                          <p className="text-muted-foreground">
+                              123 Tech Park, Silicon Valley,<br/>
+                              Chennai, India
+                          </p>
+                      </div>
+                  </div>
+              </div>
             </div>
           </AnimatedSection>
         </div>
