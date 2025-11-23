@@ -17,6 +17,42 @@
       "description": "Hero image for the landing page",
       "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc2NTU5OTYxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "software code"
+    },
+    {
+      "id": "project1",
+      "description": "Enterprise ERP System",
+      "imageUrl": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXRhJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2MzkwNTE1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data dashboard"
+    },
+    {
+      "id": "project2",
+      "description": "AI-Powered Sales Analytics",
+      "imageUrl": "https://images.unsplash.com/photo-1736751035793-353baaa416cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhbmFseXRpY3MlMjBjaGFydHxlbnwwfHx8fDE3NjM4MzkzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "analytics chart"
+    },
+    {
+      "id": "project3",
+      "description": "Cross-Platform Mobile App",
+      "imageUrl": "https://images.unsplash.com/photo-1601972602237-8c79241e468b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzYzODg5OTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project4",
+      "description": "IoT Fleet Management",
+      "imageUrl": "https://images.unsplash.com/photo-1635881032011-48299f137a56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYXAlMjBsb2dpc3RpY3N8ZW58MHx8fHwxNzYzOTE2NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "map logistics"
+    },
+    {
+      "id": "project5",
+      "description": "E-commerce Marketplace",
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjM4NTkzNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online shopping"
+    },
+    {
+      "id": "project6",
+      "description": "Healthcare Patient Portal",
+      "imageUrl": "https://images.unsplash.com/photo-1682365114794-14b870355d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWRpY2FsJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2MzkxNjQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical interface"
     }
   ]
 }
