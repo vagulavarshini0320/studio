@@ -16,7 +16,8 @@ export default function ContactPage() {
         
         <div className="flex justify-center">
           <AnimatedSection delay={200} className="lg:col-span-2 space-y-8">
-            <div className="p-8 rounded-lg bg-card border">
+            <div className="animated-card relative p-8 rounded-lg bg-card border group">
+              <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>
               <h2 className="font-headline text-3xl font-bold mb-6">Contact Information</h2>
               <div className="space-y-6">
                   <div className="flex items-start gap-4">
