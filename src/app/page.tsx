@@ -39,7 +39,7 @@ export default function Home() {
                 We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" asChild>
+                <Button size="lg" variant="gradient" asChild>
                   <Link href="/contact">Request a Demo</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
@@ -126,7 +126,7 @@ export default function Home() {
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
                 Let's discuss how our technological expertise can align with your strategic objectives. Schedule a complimentary consultation with our solutions architects.
               </p>
-              <Button size="lg" asChild>
+              <Button size="lg" variant="gradient" asChild>
                   <Link href="/contact">Schedule Consultation</Link>
               </Button>
             </div>
