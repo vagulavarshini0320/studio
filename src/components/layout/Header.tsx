@@ -45,7 +45,7 @@ export default function Header() {
             alt="VV Software Developer Logo" 
             width={40} 
             height={40} 
-            data-ai-hint="company logo"
+            data-ai-hint="W logo"
           />
           <span className="text-xl font-bold font-headline">VV Software Developer</span>
         </Link>
@@ -86,7 +86,7 @@ export default function Header() {
                         alt="VV Software Developer Logo" 
                         width={40} 
                         height={40}
-                        data-ai-hint="company logo"
+                        data-ai-hint="W logo"
                       />
                       <span className="text-xl font-bold font-headline">VV Software Developer</span>
                     </Link>
