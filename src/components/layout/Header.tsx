@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <header
       className={cn(
-        'sticky top-0 z-50 w-full transition-shadow duration-300 bg-background/80 backdrop-blur-sm',
+        'sticky top-0 z-50 w-full transition-shadow duration-300 bg-background',
         isScrolled ? 'shadow-md' : ''
       )}
     >
