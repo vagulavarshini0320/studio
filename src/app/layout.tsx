@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(fontBody.variable, fontHeadline.variable, "font-body antialiased bg-white text-gray-800")}>
+      <body className={cn(fontBody.variable, fontHeadline.variable, "font-body antialiased bg-background text-foreground")}>
         <Header />
         <main className="min-h-screen">
           {children}
