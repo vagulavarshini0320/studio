@@ -3,7 +3,7 @@
     {
       "id": "founder",
       "description": "Photo of the founder, Vishwa Raja",
-      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjM4MDkyNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/pr.webp",
       "imageHint": "man portrait"
     },
     {
@@ -20,39 +20,39 @@
     },
     {
       "id": "project1",
-      "description": "Enterprise ERP System",
-      "imageUrl": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXRhJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2MzkwNTE1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "data dashboard"
+      "description": "Before Doctor AI",
+      "imageUrl": "https://images.unsplash.com/photo-1682365114794-14b870355d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWRpY2FsJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2MzkxNjQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical ui"
     },
     {
       "id": "project2",
-      "description": "AI-Powered Sales Analytics",
-      "imageUrl": "https://images.unsplash.com/photo-1736751035793-353baaa416cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhbmFseXRpY3MlMjBjaGFydHxlbnwwfHx8fDE3NjM4MzkzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "analytics chart"
+      "description": "Hostel Management App",
+      "imageUrl": "https://images.unsplash.com/photo-1588665045434-a095c45f532a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxob3RlbCUyMGFwcHxlbnwwfHx8fDE3NjY5NjQzMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "booking app"
     },
     {
       "id": "project3",
-      "description": "Cross-Platform Mobile App",
-      "imageUrl": "https://images.unsplash.com/photo-1601972602237-8c79241e468b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzYzODg5OTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "description": "AI-Powered Chat",
+      "imageUrl": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGF0JTIwYXBwJTIwdWl8ZW58MHx8fHwxNzY2OTY0MzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chat ui"
     },
     {
       "id": "project4",
-      "description": "IoT Fleet Management",
-      "imageUrl": "https://images.unsplash.com/photo-1635881032011-48299f137a56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYXAlMjBsb2dpc3RpY3N8ZW58MHx8fHwxNzYzOTE2NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "map logistics"
+      "description": "Enterprise ERP System",
+      "imageUrl": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXRhJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2MzkwNTE1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard ui"
     },
     {
       "id": "project5",
-      "description": "E-commerce Marketplace",
-      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjM4NTkzNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "online shopping"
+      "description": "AI Task Automation",
+      "imageUrl": "https://images.unsplash.com/photo-1600132806376-bf4e72453df6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JrZmxvdyUyMGF1dG9tYXRpb258ZW58MHx8fHwxNzY2OTY0NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "automation ui"
     },
     {
       "id": "project6",
-      "description": "Healthcare Patient Portal",
-      "imageUrl": "https://images.unsplash.com/photo-1682365114794-14b870355d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWRpY2FsJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2MzkxNjQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "medical interface"
+      "description": "Business CRM",
+      "imageUrl": "https://images.unsplash.com/photo-1634033483901-59160d5b0357?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcm0lMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzY2OTY0NDU0fDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "crm dashboard"
     }
   ]
 }
