@@ -3,20 +3,20 @@
     {
       "id": "founder",
       "description": "Photo of the founder, Vishwa Raja",
-      "imageUrl": "/founder.png",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjM4MDkyNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
     },
     {
       "id": "map",
       "description": "Placeholder map of company location",
-      "imageUrl": "/map.png",
+      "imageUrl": "https://images.unsplash.com/photo-1532154187607-d766ed024aac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYXAlMjBsb2NhdGlvbnxlbnwwfHx8fDE3NjM4NTQ2Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "map location"
     },
     {
       "id": "hero",
       "description": "Hero image for the landing page",
-      "imageUrl": "/landing.png",
-      "imageHint": "landing page background"
+      "imageUrl": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWNoJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NjM4OTAxNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech background"
     }
   ]
 }
