@@ -2,9 +2,6 @@ import Image from 'next/image';
 import { Eye, Rocket, Zap, Users } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
-
-const founderImage = PlaceHolderImages.find(p => p.id === 'founder');
 
 export default function AboutPage() {
   return (
@@ -22,16 +19,14 @@ export default function AboutPage() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
           <AnimatedSection>
-            {founderImage && (
-              <Image
-                src={founderImage.imageUrl}
-                alt={founderImage.description}
-                width={600}
-                height={600}
-                className="rounded-lg object-cover shadow-2xl w-full"
-                data-ai-hint={founderImage.imageHint}
-              />
-            )}
+            <Image
+              src="/pr.webp"
+              alt="Photo of the founder, Vishwa Raja"
+              width={600}
+              height={600}
+              className="rounded-lg object-cover shadow-2xl w-full"
+              data-ai-hint="man portrait"
+            />
           </AnimatedSection>
           <AnimatedSection delay={200}>
             <h2 className="font-headline text-3xl font-bold mb-4">Our Genesis</h2>
