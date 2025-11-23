@@ -48,8 +48,8 @@ export default function AboutPage() {
           <h2 className="font-headline text-3xl font-bold mb-12">Our Core Principles</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-8">
             <AnimatedSection delay={100}>
-              <Card className="animated-card h-full text-left bg-card border group">
-                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+              <Card className="animated-card h-full text-left bg-card border group relative">
+                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>
                 <CardHeader>
                   <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                     <Rocket className="w-6 h-6 text-primary"/>
@@ -64,8 +64,8 @@ export default function AboutPage() {
               </Card>
             </AnimatedSection>
             <AnimatedSection delay={200}>
-              <Card className="animated-card h-full text-left bg-card border group">
-                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+              <Card className="animated-card h-full text-left bg-card border group relative">
+                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>
                 <CardHeader>
                   <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                     <Zap className="w-6 h-6 text-primary"/>
@@ -80,8 +80,8 @@ export default function AboutPage() {
               </Card>
             </AnimatedSection>
              <AnimatedSection delay={300}>
-              <Card className="animated-card h-full text-left bg-card border group">
-                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+              <Card className="animated-card h-full text-left bg-card border group relative">
+                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>
                 <CardHeader>
                   <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                     <Users className="w-6 h-6 text-primary"/>
@@ -96,8 +96,8 @@ export default function AboutPage() {
               </Card>
             </AnimatedSection>
              <AnimatedSection delay={400}>
-              <Card className="animated-card h-full text-left bg-card border group">
-                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+              <Card className="animated-card h-full text-left bg-card border group relative">
+                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>
                 <CardHeader>
                   <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                     <Eye className="w-6 h-6 text-primary"/>

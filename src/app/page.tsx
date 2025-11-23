@@ -21,12 +21,12 @@ export default function Home() {
               src={heroImage.imageUrl}
               alt={heroImage.description}
               fill
-              className="object-cover opacity-50"
+              className="object-cover opacity-30"
               data-ai-hint={heroImage.imageHint}
               priority
             />
           )}
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
         </div>
         
         <div className="container mx-auto px-4 md:px-6">
@@ -39,7 +39,7 @@ export default function Home() {
                 We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" variant="gradient" asChild>
+                <Button size="lg" asChild>
                   <Link href="/contact">Request a Demo</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="section-padding bg-muted/30">
+      <section id="services" className="section-padding bg-background">
         <div className="container mx-auto px-4 md:px-6">
           <AnimatedSection>
             <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-4">Core Competencies</h2>
@@ -63,7 +63,8 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <AnimatedSection key={service.title} delay={index * 100}>
-              <Card className="animated-card h-full bg-card border group">
+              <Card className="animated-card h-full bg-card border group relative">
+                <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>
                 <CardHeader>
                   <div className="flex items-center gap-4">
                     <div className="bg-primary/10 p-3 rounded-lg group-hover:bg-primary transition-colors duration-300">
@@ -83,7 +84,7 @@ export default function Home() {
       </section>
       
       {/* About Section */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-muted/30">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <AnimatedSection>
@@ -117,7 +118,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-muted/30">
+      <section className="section-padding bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <AnimatedSection>
             <div className="bg-card p-8 md:p-12 rounded-xl border">
@@ -125,7 +126,7 @@ export default function Home() {
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
                 Let's discuss how our technological expertise can align with your strategic objectives. Schedule a complimentary consultation with our solutions architects.
               </p>
-              <Button size="lg" variant="gradient" asChild>
+              <Button size="lg" asChild>
                   <Link href="/contact">Schedule Consultation</Link>
               </Button>
             </div>

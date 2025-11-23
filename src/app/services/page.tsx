@@ -30,8 +30,8 @@ export default function ServicesPage() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-24">
           {services.map((service, index) => (
             <AnimatedSection key={service.title} delay={index * 100}>
-               <Card className="animated-card h-full bg-card border group">
-                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+               <Card className="animated-card h-full bg-card border group relative">
+                 <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>
                 <CardHeader>
                   <div className="flex flex-col items-start gap-4">
                     <div className="bg-primary/10 p-3 rounded-lg group-hover:bg-primary transition-colors duration-300">
