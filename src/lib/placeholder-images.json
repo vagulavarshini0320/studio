@@ -14,9 +14,9 @@
     },
     {
       "id": "hero",
-      "description": "Abstract technology background showing software symbols and product development",
-      "imageUrl": "/hero.png",
-      "imageHint": "software development"
+      "description": "Hero image for the landing page",
+      "imageUrl": "/landing.png",
+      "imageHint": "landing page background"
     }
   ]
 }
