@@ -20,9 +20,9 @@
     },
     {
       "id": "hero",
-      "description": "Abstract technology background for hero section",
+      "description": "Abstract technology background showing software symbols and product development",
       "imageUrl": "/assets/hero.png",
-      "imageHint": "abstract technology"
+      "imageHint": "software development"
     }
   ]
 }
