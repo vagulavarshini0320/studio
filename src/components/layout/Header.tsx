@@ -41,7 +41,7 @@ export default function Header() {
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
           <Image 
-            src="/logo.jpeg" 
+            src="/logo.jpg" 
             alt="VV Software Developer Logo" 
             width={40} 
             height={40} 
@@ -82,7 +82,7 @@ export default function Header() {
                   <div className="flex items-center justify-between p-4 border-b">
                      <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
                        <Image 
-                        src="/logo.jpeg" 
+                        src="/logo.jpg" 
                         alt="VV Software Developer Logo" 
                         width={40} 
                         height={40}
