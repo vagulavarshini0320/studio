@@ -13,7 +13,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     
-    --primary: 190 58% 36%;
+    --primary: 190 65% 35%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 240 4.8% 95.9%;
@@ -30,7 +30,7 @@
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 190 58% 36%;
+    --ring: 190 65% 35%;
     
     --radius: 0.5rem;
     
@@ -51,7 +51,7 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
     
-    --primary: 190 58% 36%;
+    --primary: 190 65% 45%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -68,7 +68,7 @@
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 190 58% 36%;
+    --ring: 190 65% 45%;
     
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
@@ -100,5 +100,14 @@
   .is-visible {
     opacity: 1;
     transform: translateY(0);
+  }
+  .animated-card {
+    @apply transition-all duration-300;
+  }
+  .animated-card:hover {
+    @apply -translate-y-2 scale-[1.02] shadow-2xl shadow-primary/10;
+  }
+  .animated-card:hover .glow-border {
+     @apply opacity-100;
   }
 }
