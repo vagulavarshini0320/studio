@@ -8,7 +8,6 @@ import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -16,8 +15,6 @@ const navLinks = [
   { href: '/services', label: 'Services' },
   { href: '/contact', label: 'Contact' },
 ];
-
-const logoImage = PlaceHolderImages.find(p => p.id === 'logo');
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,15 +40,13 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
-          {logoImage && (
-            <Image 
-              src={logoImage.imageUrl} 
-              alt={logoImage.description} 
-              width={40} 
-              height={40} 
-              data-ai-hint={logoImage.imageHint}
-            />
-          )}
+          <Image 
+            src="/assets/logo.png" 
+            alt="VV Software Developer Logo" 
+            width={40} 
+            height={40} 
+            data-ai-hint="company logo"
+          />
           <span className="text-xl font-bold font-headline">VV Software Developer</span>
         </Link>
 
@@ -86,15 +81,13 @@ export default function Header() {
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between p-4 border-b">
                      <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
-                      {logoImage && (
-                        <Image 
-                          src={logoImage.imageUrl} 
-                          alt={logoImage.description} 
-                          width={40} 
-                          height={40}
-                          data-ai-hint={logoImage.imageHint}
-                        />
-                      )}
+                       <Image 
+                        src="/assets/logo.png" 
+                        alt="VV Software Developer Logo" 
+                        width={40} 
+                        height={40}
+                        data-ai-hint="company logo"
+                      />
                       <span className="text-xl font-bold font-headline">VV Software Developer</span>
                     </Link>
                   </div>

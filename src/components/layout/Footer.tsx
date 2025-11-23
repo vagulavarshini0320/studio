@@ -2,8 +2,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Github, Twitter, Linkedin } from 'lucide-react';
 import { Button } from '../ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
-
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -12,8 +10,6 @@ const navLinks = [
   { href: '/contact', label: 'Contact' },
 ];
 
-const logoImage = PlaceHolderImages.find(p => p.id === 'logo');
-
 export default function Footer() {
   return (
     <footer className="footer-gradient text-primary-foreground border-t">
@@ -21,16 +17,14 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-12">
           <div className="flex flex-col gap-4 md:col-span-4">
             <Link href="/" className="flex items-center gap-2">
-              {logoImage && (
-                <Image 
-                  src={logoImage.imageUrl} 
-                  alt={logoImage.description}
-                  width={40} 
-                  height={40}
-                  className="rounded-sm"
-                  data-ai-hint={logoImage.imageHint}
-                />
-              )}
+              <Image 
+                src="/assets/logo.png" 
+                alt="VV Software Developer Logo"
+                width={40} 
+                height={40}
+                className="rounded-sm"
+                data-ai-hint="company logo"
+              />
               <span className="text-xl font-bold font-headline">VV Software Developer</span>
             </Link>
             <p className="text-sm text-primary-foreground/80 max-w-xs">

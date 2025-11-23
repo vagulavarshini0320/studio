@@ -7,4 +7,5 @@ export type ImagePlaceholder = {
   imageHint: string;
 };
 
-export const PlaceHolderImages: ImagePlaceholder[] = data.placeholderImages;
+// Filter out the logo so it's not included in the placeholder images
+export const PlaceHolderImages: ImagePlaceholder[] = data.placeholderImages.filter(p => p.id !== 'logo');
