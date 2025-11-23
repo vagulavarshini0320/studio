@@ -44,11 +44,11 @@ export default function AboutPage() {
           </AnimatedSection>
         </div>
 
-        <div className="text-center mb-20">
+        <div className="text-center mb-20 bg-muted/30 py-20 rounded-xl">
           <h2 className="font-headline text-3xl font-bold mb-12">Our Core Principles</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-8">
             <AnimatedSection delay={100}>
-              <Card className="h-full text-left bg-card border border-border/50">
+              <Card className="h-full text-left bg-card border">
                 <CardHeader>
                   <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                     <Rocket className="w-6 h-6 text-primary"/>
@@ -63,7 +63,7 @@ export default function AboutPage() {
               </Card>
             </AnimatedSection>
             <AnimatedSection delay={200}>
-              <Card className="h-full text-left bg-card border border-border/50">
+              <Card className="h-full text-left bg-card border">
                 <CardHeader>
                   <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                     <Zap className="w-6 h-6 text-primary"/>
@@ -78,7 +78,7 @@ export default function AboutPage() {
               </Card>
             </AnimatedSection>
              <AnimatedSection delay={300}>
-              <Card className="h-full text-left bg-card border border-border/50">
+              <Card className="h-full text-left bg-card border">
                 <CardHeader>
                   <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                     <Users className="w-6 h-6 text-primary"/>
@@ -93,7 +93,7 @@ export default function AboutPage() {
               </Card>
             </AnimatedSection>
              <AnimatedSection delay={400}>
-              <Card className="h-full text-left bg-card border border-border/50">
+              <Card className="h-full text-left bg-card border">
                 <CardHeader>
                   <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                     <Eye className="w-6 h-6 text-primary"/>

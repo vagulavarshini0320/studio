@@ -17,7 +17,7 @@ export default function ContactPage() {
         
         <div className="grid lg:grid-cols-5 gap-12">
           <AnimatedSection className="lg:col-span-3">
-            <div className="p-8 rounded-lg bg-card border border-border/50">
+            <div className="p-8 rounded-lg bg-card border">
               <h2 className="font-headline text-3xl font-bold mb-6">Submit an Inquiry</h2>
               <ContactForm />
             </div>

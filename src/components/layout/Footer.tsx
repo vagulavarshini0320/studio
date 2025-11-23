@@ -11,7 +11,7 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-card border-t border-border/50">
+    <footer className="bg-muted/50 border-t">
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="flex flex-col gap-4 md:col-span-4">
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="mt-12 border-t border-border/50 pt-6 text-center text-sm text-muted-foreground">
+        <div className="mt-12 border-t pt-6 text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} VV Software Developer Pvt Ltd. All Rights Reserved.</p>
         </div>
       </div>

@@ -34,7 +34,7 @@ export default function Header() {
     <header
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
-        isScrolled ? 'border-b border-border bg-background/80 backdrop-blur-sm' : 'bg-transparent'
+        isScrolled ? 'border-b bg-background/80 backdrop-blur-sm' : 'bg-transparent'
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
@@ -50,7 +50,7 @@ export default function Header() {
               href={link.href}
               className={cn(
                 'px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary',
-                pathname === link.href ? 'text-primary bg-muted' : 'text-muted-foreground'
+                pathname === link.href ? 'text-primary bg-muted' : 'text-foreground/60'
               )}
             >
               {link.label}
@@ -59,7 +59,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild className="hidden sm:inline-flex" variant="outline">
+          <Button asChild className="hidden sm:inline-flex">
             <Link href="/contact">Get Quote</Link>
           </Button>
           <div className="md:hidden">

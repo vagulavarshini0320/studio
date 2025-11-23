@@ -4,37 +4,37 @@
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
     
-    --card: 240 4.7% 11%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
     
-    --primary: 217 91% 60%;
+    --primary: 190 58% 36%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
 
-    --destructive: 0 63% 31%;
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 217 91% 60%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 190 58% 36%;
     
     --radius: 0.5rem;
     
-    --chart-1: 220 70% 50%;
+    --chart-1: 190 58% 36%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
@@ -51,7 +51,7 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
     
-    --primary: 217 91% 60%;
+    --primary: 190 58% 36%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -68,7 +68,7 @@
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 217 91% 60%;
+    --ring: 190 58% 36%;
     
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
@@ -87,7 +87,7 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
   .glass-card {
-    @apply bg-card/50 backdrop-blur-lg border border-primary/20;
+    @apply bg-card/50 backdrop-blur-lg border-primary/20;
   }
   .section-padding {
     @apply px-6 py-20 sm:px-10 md:px-16 lg:py-28;

@@ -30,7 +30,7 @@ export default function ServicesPage() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-24">
           {services.map((service, index) => (
             <AnimatedSection key={service.title} delay={index * 100}>
-               <Card className="h-full bg-card border border-border/50 hover:border-primary/80 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1 group">
+               <Card className="h-full bg-card border hover:border-primary/80 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1 group">
                 <CardHeader>
                   <div className="flex flex-col items-start gap-4">
                     <div className="bg-primary/10 p-3 rounded-lg group-hover:bg-primary transition-colors duration-300">
@@ -49,7 +49,7 @@ export default function ServicesPage() {
         </div>
 
         <AnimatedSection>
-          <div className="relative rounded-xl bg-card border border-border/50 p-8 md:p-16 overflow-hidden">
+          <div className="relative rounded-xl bg-muted/30 p-8 md:p-16 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h2 className="font-headline text-3xl font-bold mb-4">Standard Inclusions</h2>
@@ -67,7 +67,7 @@ export default function ServicesPage() {
                   ))}
                 </ul>
               </div>
-              <div className="flex flex-col items-start p-8 bg-background rounded-lg shadow-lg">
+              <div className="flex flex-col items-start p-8 bg-background rounded-lg shadow-lg border">
                 <h3 className="font-headline text-2xl font-bold mb-4">Ready to build?</h3>
                 <p className="text-muted-foreground mb-6">
                   Let's transform your vision into a high-performance reality. Contact us today for a detailed, no-obligation project proposal.
