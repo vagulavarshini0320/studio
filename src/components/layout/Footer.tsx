@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4 md:col-span-4">
             <Link href="/" className="flex items-center gap-2">
               <Image 
-                src="/assets/logo.png" 
+                src="/static/media/logo.png" 
                 alt="VV Software Developer Logo"
                 width={40} 
                 height={40}

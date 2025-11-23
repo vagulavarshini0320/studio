@@ -3,19 +3,19 @@
     {
       "id": "founder",
       "description": "Photo of the founder, Vishwa Raja",
-      "imageUrl": "/assets/founder.png",
+      "imageUrl": "/static/media/founder.png",
       "imageHint": "man portrait"
     },
     {
       "id": "map",
       "description": "Placeholder map of company location",
-      "imageUrl": "/assets/map.png",
+      "imageUrl": "/static/media/map.png",
       "imageHint": "map location"
     },
     {
       "id": "hero",
       "description": "Abstract technology background showing software symbols and product development",
-      "imageUrl": "/assets/hero.png",
+      "imageUrl": "/static/media/hero.png",
       "imageHint": "software development"
     }
   ]
