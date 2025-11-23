@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Code2 } from 'lucide-react';
+import { Menu, X, CircuitBoard } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
@@ -39,7 +39,7 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
-          <Code2 className="h-8 w-8 text-primary" />
+          <CircuitBoard className="h-8 w-8 text-primary" />
           <span className="text-xl font-bold font-headline">VV Software Developer</span>
         </Link>
 
@@ -74,7 +74,7 @@ export default function Header() {
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between p-4 border-b">
                      <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
-                      <Code2 className="h-8 w-8 text-primary" />
+                      <CircuitBoard className="h-8 w-8 text-primary" />
                       <span className="text-xl font-bold font-headline">VV Software Developer</span>
                     </Link>
                   </div>

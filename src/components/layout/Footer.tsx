@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Code2, Github, Twitter, Linkedin } from 'lucide-react';
+import { CircuitBoard, Github, Twitter, Linkedin } from 'lucide-react';
 import { Button } from '../ui/button';
 
 const navLinks = [
@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-12">
           <div className="flex flex-col gap-4 md:col-span-4">
             <Link href="/" className="flex items-center gap-2">
-              <Code2 className="h-8 w-8 text-primary" />
+              <CircuitBoard className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold font-headline">VV Software Developer</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
