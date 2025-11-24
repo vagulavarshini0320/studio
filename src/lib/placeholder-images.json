@@ -27,8 +27,8 @@
     {
       "id": "project2",
       "description": "Hostel Management App",
-      "imageUrl": "https://images.unsplash.com/photo-1588665045434-a095c45f532a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxob3RlbCUyMGFwcHxlbnwwfHx8fDE3NjY5NjQzMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "booking app"
+      "imageUrl": "/hostel.webp",
+      "imageHint": "hostel booking"
     },
     {
       "id": "project3",
