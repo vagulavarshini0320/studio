@@ -36,8 +36,9 @@ export default function Header() {
   return (
     <header
       className={cn(
-        'sticky top-0 z-50 w-full transition-all duration-300 bg-white text-gray-800',
-        isScrolled ? 'shadow-md' : '',
+        'sticky top-0 z-50 w-full transition-all duration-300',
+        isScrolled ? 'shadow-md bg-white/80 backdrop-blur-lg' : 'bg-transparent',
+        'text-gray-800 dark:text-white'
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
@@ -58,8 +59,8 @@ export default function Header() {
               key={link.href}
               href={link.href}
               className={cn(
-                'px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-gray-100',
-                pathname === link.href ? 'bg-gray-100 text-gray-900' : 'text-gray-600'
+                'px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800',
+                pathname === link.href ? 'bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-white' : 'text-gray-600 dark:text-gray-300'
               )}
             >
               {link.label}
@@ -68,7 +69,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild className="hidden sm:inline-flex bg-gray-800 text-white hover:bg-gray-700">
+          <Button asChild className="hidden sm:inline-flex bg-gray-800 text-white hover:bg-gray-700 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300">
             <Link href="/contact">Get Quote</Link>
           </Button>
           <div className="md:hidden">
@@ -79,9 +80,9 @@ export default function Header() {
                   <span className="sr-only">Open menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right" className="w-[300px] bg-white p-0">
+              <SheetContent side="right" className="w-[300px] bg-white dark:bg-gray-900 p-0">
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center justify-between p-4 border-b">
+                  <div className="flex items-center justify-between p-4 border-b dark:border-gray-800">
                      <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
                        <Image 
                         src="/logo.png" 
@@ -100,16 +101,16 @@ export default function Header() {
                         href={link.href}
                         onClick={closeMobileMenu}
                         className={cn(
-                          'px-4 py-3 rounded-md font-medium transition-colors hover:bg-gray-100',
-                           pathname === link.href ? 'text-primary bg-primary/10' : 'text-gray-800'
+                          'px-4 py-3 rounded-md font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800',
+                           pathname === link.href ? 'text-primary bg-primary/10' : 'text-gray-800 dark:text-gray-200'
                         )}
                       >
                         {link.label}
                       </Link>
                     ))}
                   </nav>
-                   <div className="mt-auto p-4 border-t">
-                     <Button asChild className="w-full bg-gray-800 text-white hover:bg-gray-700">
+                   <div className="mt-auto p-4 border-t dark:border-gray-800">
+                     <Button asChild className="w-full bg-gray-800 text-white hover:bg-gray-700 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300">
                         <Link href="/contact" onClick={closeMobileMenu}>Get Quote</Link>
                     </Button>
                    </div>

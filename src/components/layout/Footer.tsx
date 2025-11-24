@@ -13,7 +13,7 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-gray-800 border-t">
+    <footer className="bg-muted/30 border-t">
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="flex flex-col gap-4 md:col-span-4">
@@ -28,17 +28,17 @@ export default function Footer() {
               />
               <span className="text-xl font-bold font-headline">VV Software Developer</span>
             </Link>
-            <p className="text-sm text-gray-600 max-w-xs">
+            <p className="text-sm text-muted-foreground max-w-xs">
               Engineering enterprise-grade software solutions for a complex world.
             </p>
             <div className="flex gap-1 mt-2">
-              <Button variant="ghost" size="icon" className="text-gray-500 hover:text-gray-900 hover:bg-gray-100" asChild>
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground hover:bg-accent" asChild>
                 <Link href="#"><Twitter className="w-5 h-5"/></Link>
               </Button>
-              <Button variant="ghost" size="icon" className="text-gray-500 hover:text-gray-900 hover:bg-gray-100" asChild>
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground hover:bg-accent" asChild>
                 <Link href="#"><Github className="w-5 h-5"/></Link>
               </Button>
-              <Button variant="ghost" size="icon" className="text-gray-500 hover:text-gray-900 hover:bg-gray-100" asChild>
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground hover:bg-accent" asChild>
                 <Link href="#"><Linkedin className="w-5 h-5"/></Link>
               </Button>
             </div>
@@ -49,7 +49,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -60,8 +60,8 @@ export default function Footer() {
           <div className="md:col-span-3">
              <h3 className="font-headline text-lg font-semibold mb-4">Contact</h3>
              <div className="space-y-3 text-sm">
-                <a href="mailto:vishwarajaofficial@gmail.com" className="text-gray-600 block hover:text-gray-900 transition-colors">vishwarajaofficial@gmail.com</a>
-                <a href="tel:893920811" className="text-gray-600 block hover:text-gray-900 transition-colors">893920811</a>
+                <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground block hover:text-foreground transition-colors">vishwarajaofficial@gmail.com</a>
+                <a href="tel:893920811" className="text-muted-foreground block hover:text-foreground transition-colors">893920811</a>
              </div>
           </div>
 
@@ -69,16 +69,16 @@ export default function Footer() {
              <h3 className="font-headline text-lg font-semibold mb-4">Legal</h3>
              <ul className="space-y-2">
                 <li>
-                    <Link href="#" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Privacy Policy</Link>
+                    <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</Link>
                 </li>
                  <li>
-                    <Link href="#" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Terms of Service</Link>
+                    <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Terms of Service</Link>
                 </li>
              </ul>
           </div>
         </div>
         
-        <div className="mt-12 border-t pt-6 text-center text-sm text-gray-500">
+        <div className="mt-12 border-t pt-6 text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} VV Software Developer Pvt Ltd. All Rights Reserved.</p>
         </div>
       </div>
