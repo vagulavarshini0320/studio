@@ -46,7 +46,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <AnimatedSection className="flex flex-col items-center">
               <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4">
-                 Enterprise Software Solutions for
+                 Enterprise Software Solutions
               </h1>
               <RotatingText words={rotatingWords} className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6 h-16 sm:h-20 md:h-24" />
               <TypingEffect
