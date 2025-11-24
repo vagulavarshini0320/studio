@@ -36,7 +36,7 @@ export default function Header() {
   return (
     <header
       className={cn(
-        'sticky top-0 z-50 w-full transition-all duration-300 text-foreground',
+        'sticky top-0 z-50 w-full transition-all duration-300',
         isScrolled ? 'shadow-md bg-background/80 backdrop-blur-lg' : 'bg-transparent'
       )}
     >
@@ -49,8 +49,7 @@ export default function Header() {
             height={40} 
             data-ai-hint="W logo"
           />
-          <span className="text-lg font-bold font-headline hidden sm:inline-block">VV Software Developer</span>
-           <span className="text-lg font-bold font-headline sm:hidden">VVS</span>
+          <span className="text-lg font-bold font-headline">VV Software Developer</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-2">
@@ -60,7 +59,7 @@ export default function Header() {
               href={link.href}
               className={cn(
                 'px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground',
-                pathname === link.href ? 'bg-accent text-accent-foreground' : 'text-muted-foreground'
+                pathname === link.href ? 'text-primary' : 'text-muted-foreground'
               )}
             >
               {link.label}
