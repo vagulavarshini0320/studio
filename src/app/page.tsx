@@ -7,7 +7,6 @@ import { services } from './services/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 
-const heroImage = PlaceHolderImages.find(p => p.id === 'hero');
 const founderImage = PlaceHolderImages.find(p => p.id === 'founder');
 
 export default function Home() {
@@ -16,16 +15,6 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-[-1]">
-          {heroImage && (
-            <Image
-              src={heroImage.imageUrl}
-              alt={heroImage.description}
-              fill
-              className="object-cover opacity-20"
-              data-ai-hint={heroImage.imageHint}
-              priority
-            />
-          )}
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
         </div>
         
