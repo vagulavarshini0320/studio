@@ -198,18 +198,31 @@
   .rotating-text-word-container > .rotating-text-word:nth-child(11) { animation-delay: 20s; }
   .rotating-text-word-container > .rotating-text-word:nth-child(12) { animation-delay: 22s; }
   .rotating-text-word-container > .rotating-text-word:nth-child(13) { animation-delay: 24s; }
-  .rotating-text-word-container > .rotating-text-word:nth-child(14) { animation-delay: 26s; }
+  .rotatingtext-word-container > .rotating-text-word:nth-child(14) { animation-delay: 26s; }
 
   @keyframes rotate-word {
-    0%, 7%, 100% {
-      opacity: 0;
-      transform: translateY(0.5rem);
-      filter: blur(4px);
+    0% {
+        opacity: 0;
+        transform: translateY(-0.5rem);
+        filter: blur(4px);
     }
-    1%, 6% {
-      opacity: 1;
-      transform: translateY(0);
-      filter: blur(0);
+    3.5% {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+    7% {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+    10.5% {
+        opacity: 0;
+        transform: translateY(0.5rem);
+        filter: blur(4px);
+    }
+    100% {
+        opacity: 0;
     }
   }
 }
