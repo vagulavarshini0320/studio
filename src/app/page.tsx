@@ -48,7 +48,7 @@ export default function Home() {
               <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6">
                 Enterprise Software Solutions
                 <br />
-                <RotatingText words={rotatingWords} />
+                for <RotatingText words={rotatingWords} />
               </h1>
               <TypingEffect
                 className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 min-h-[60px] md:min-h-[3rem]"
