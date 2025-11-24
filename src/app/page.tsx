@@ -6,9 +6,26 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { services } from './services/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, CheckCircle } from 'lucide-react';
-import TypingEffect from '@/components/TypingEffect';
+import RotatingText from '@/components/RotatingText';
 
 const founderImage = PlaceHolderImages.find(p => p.id === 'founder');
+
+const rotatingWords = [
+    "Businesses",
+    "Startups",
+    "Enterprises",
+    "Agencies",
+    "Corporates",
+    "Manufacturers",
+    "Hospitals",
+    "Schools & Colleges",
+    "Retail Shops",
+    "E-commerce Brands",
+    "Finance Companies",
+    "Logistics & Transport",
+    "Real Estate",
+    "Restaurants & Hotels",
+];
 
 export default function Home() {
   return (
@@ -26,12 +43,13 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <AnimatedSection className="flex flex-col items-center">
               <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6">
-                Enterprise Software Solutions
+                Enterprise Software Solutions for
+                <br />
+                <RotatingText words={rotatingWords} />
               </h1>
-              <TypingEffect
-                className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 h-24 md:h-14"
-                text="We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology."
-              />
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 h-12 md:h-auto">
+                We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology.
+              </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">Request a Demo</Link>
