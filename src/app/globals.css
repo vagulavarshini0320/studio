@@ -198,7 +198,7 @@
   .rotating-text-word-container > .rotating-text-word:nth-child(11) { animation-delay: 20s; }
   .rotating-text-word-container > .rotating-text-word:nth-child(12) { animation-delay: 22s; }
   .rotating-text-word-container > .rotating-text-word:nth-child(13) { animation-delay: 24s; }
-  .rotatingtext-word-container > .rotating-text-word:nth-child(14) { animation-delay: 26s; }
+  .rotating-text-word-container > .rotating-text-word:nth-child(14) { animation-delay: 26s; }
 
   @keyframes rotate-word {
     0% {
