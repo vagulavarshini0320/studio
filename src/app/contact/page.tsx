@@ -33,9 +33,9 @@ export default function ContactPage() {
         </AnimatedSection>
         
         <div className="flex justify-center">
-          <AnimatedSection delay={200} className="lg:col-span-2 space-y-8">
-            <div className="animated-card relative p-8 rounded-lg bg-card border group">
-              <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>
+          <div className="lg:col-span-2 space-y-8">
+            <div className="relative p-8 rounded-lg bg-card border group">
+              <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <h2 className="font-headline text-3xl font-bold mb-6">Contact Information</h2>
               <div className="space-y-6">
                   <div className="flex items-start gap-4">
@@ -67,7 +67,7 @@ export default function ContactPage() {
                   </div>
               </div>
             </div>
-          </AnimatedSection>
+          </div>
         </div>
       </div>
     </div>
