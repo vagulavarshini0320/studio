@@ -31,7 +31,7 @@ export default function ProjectsPage() {
                       alt={project.title}
                       width={600}
                       height={400}
-                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-48 object-contain transition-transform duration-300 group-hover:scale-105"
                       data-ai-hint={projectImage.imageHint}
                     />
                   )}
