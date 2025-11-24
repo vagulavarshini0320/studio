@@ -24,7 +24,7 @@ export default function AboutPage() {
               alt="Photo of the founder, Vishwa Raja"
               width={600}
               height={600}
-              className="rounded-lg object-cover shadow-2xl w-full"
+              className="rounded-lg object-cover shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25),_0_10px_10px_-5px_rgba(0,0,0,0.04)] w-full"
               data-ai-hint="man portrait"
             />
           </AnimatedSection>
