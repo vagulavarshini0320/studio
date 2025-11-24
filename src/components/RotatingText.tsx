@@ -9,14 +9,14 @@ interface RotatingTextProps {
 
 export default function RotatingText({ words, className }: RotatingTextProps) {
   return (
-    <span className={cn("inline-flex flex-col items-center text-primary h-16 md:h-20 overflow-hidden", className)}>
-        <ul className="text-center animate-text-rotation">
+    <span className={cn("relative inline-block text-primary h-16 md:h-20 overflow-hidden text-center", className)}>
+        <span className="rotating-text-word-container">
             {words.map((word) => (
-                <li key={word} className="leading-tight tracking-tighter">
+                <span key={word} className="rotating-text-word leading-tight tracking-tighter">
                     {word}
-                </li>
+                </span>
             ))}
-      </ul>
+      </span>
     </span>
   );
 }

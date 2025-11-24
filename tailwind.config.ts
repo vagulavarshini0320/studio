@@ -121,16 +121,6 @@ export default {
             transform: 'tranlate(0px, 0px) scale(1)',
           },
         },
-        'text-rotation': {
-           '0%, 100%': { transform: 'translateY(0)' },
-           '12.5%': { transform: 'translateY(-12.5%)' },
-           '25%': { transform: 'translateY(-25%)' },
-           '37.5%': { transform: 'translateY(-37.5%)' },
-           '50%': { transform: 'translateY(-50%)' },
-           '62.5%': { transform: 'translateY(-62.5%)' },
-           '75%': { transform: 'translateY(-75%)' },
-           '87.5%': { transform: 'translateY(-87.5%)' },
-        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -138,7 +128,6 @@ export default {
         'glow': 'glow 4s ease-in-out infinite',
         'background-pan': 'background-pan 15s ease-in-out infinite',
         'blob': 'blob 7s infinite',
-        'text-rotation': 'text-rotation 28s ease-in-out infinite',
       },
     },
   },
