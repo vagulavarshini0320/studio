@@ -1,5 +1,23 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection';
+
+const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+  </svg>
+);
+
 
 export default function ContactPage() {
   return (
@@ -40,14 +58,11 @@ export default function ContactPage() {
                   </div>
                    <div className="flex items-start gap-4">
                       <div className="bg-primary/10 p-3 rounded-lg mt-1 border border-primary/20">
-                          <MapPin className="w-5 h-5 text-primary" />
+                          <WhatsAppIcon className="w-5 h-5 text-primary" />
                       </div>
                       <div>
-                          <h3 className="font-semibold text-lg">Headquarters</h3>
-                          <p className="text-muted-foreground">
-                              123 Tech Park, Silicon Valley,<br/>
-                              Chennai, India
-                          </p>
+                          <h3 className="font-semibold text-lg">WhatsApp</h3>
+                          <a href="https://wa.me/91893920811" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">Connect on WhatsApp</a>
                       </div>
                   </div>
               </div>
