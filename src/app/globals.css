@@ -39,6 +39,11 @@
     --chart-3: 35 91% 54%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
+    --blob-red: 0 100% 50%;
+    --blob-blue: 240 100% 50%;
+    --blob-green: 120 100% 50%;
+    --blob-yellow: 60 100% 50%;
   }
  
   .dark {
@@ -75,6 +80,11 @@
     --chart-3: 35 91% 54%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
+    --blob-red: 0 100% 50%;
+    --blob-blue: 240 100% 50%;
+    --blob-green: 120 100% 50%;
+    --blob-yellow: 60 100% 50%;
   }
 }
  
@@ -117,8 +127,7 @@
 
 @layer utilities {
   .hero-gradient-background {
-    @apply bg-gradient-to-br from-background via-primary/5 to-background animate-background-pan;
-    background-size: 200% 200%;
+    @apply bg-gradient-to-br from-background via-primary/5 to-background;
   }
   .rotating-text-word-container {
       position: relative;
@@ -131,6 +140,16 @@
     opacity: 0;
     transform-origin: center center;
     animation: text-rotate-in-out 4s ease-in-out infinite;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  .animation-delay-6000 {
+    animation-delay: 6s;
   }
 
   @keyframes text-rotate-in-out {

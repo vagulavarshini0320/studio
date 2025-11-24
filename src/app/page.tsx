@@ -33,6 +33,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-[-1] hero-gradient-background">
+           <div className="absolute top-0 left-0 w-72 h-72 bg-blob-blue rounded-full filter blur-3xl opacity-30 animate-blob"></div>
+            <div className="absolute top-0 right-0 w-72 h-72 bg-blob-red rounded-full filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+            <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-blob-yellow rounded-full filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+            <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-blob-green rounded-full filter blur-3xl opacity-30 animate-blob animation-delay-6000"></div>
         </div>
         
         <div className="container mx-auto px-4 md:px-6">
