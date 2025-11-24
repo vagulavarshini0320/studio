@@ -1,5 +1,4 @@
 import { Mail, Phone } from 'lucide-react';
-import AnimatedSection from '@/components/AnimatedSection';
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -23,19 +22,18 @@ export default function ContactPage() {
   return (
     <div className="section-padding">
       <div className="container mx-auto px-4 md:px-6">
-        <AnimatedSection className="text-center">
+        <div className="text-center">
           <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter mb-4">
             Contact Us
           </h1>
           <p className="text-lg text-muted-foreground text-center max-w-2xl mx-auto mb-12">
             Engage with our solution architects to discuss your project requirements or to schedule a demo.
           </p>
-        </AnimatedSection>
+        </div>
         
         <div className="flex justify-center">
           <div className="lg:col-span-2 space-y-8">
             <div className="relative p-8 rounded-lg bg-card border group">
-              <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <h2 className="font-headline text-3xl font-bold mb-6">Contact Information</h2>
               <div className="space-y-6">
                   <div className="flex items-start gap-4">
