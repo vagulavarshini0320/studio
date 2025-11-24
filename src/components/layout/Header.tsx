@@ -45,8 +45,8 @@ export default function Header() {
           <Image 
             src="/logo.png" 
             alt="VV Software Developer Logo" 
-            width={50} 
-            height={50} 
+            width={60} 
+            height={60} 
             data-ai-hint="W logo"
           />
           <span className="text-lg font-bold font-headline">VV Software Developer</span>
@@ -86,8 +86,8 @@ export default function Header() {
                        <Image 
                         src="/logo.png" 
                         alt="VV Software Developer Logo" 
-                        width={50} 
-                        height={50}
+                        width={60} 
+                        height={60}
                         data-ai-hint="W logo"
                       />
                       <span className="text-lg font-bold font-headline">VV Software Developer</span>
