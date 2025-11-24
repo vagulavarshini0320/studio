@@ -36,8 +36,8 @@ export default function Header() {
   return (
     <header
       className={cn(
-        'sticky top-0 z-50 w-full transition-all duration-300',
-        isScrolled ? 'shadow-md bg-white text-gray-800' : 'bg-white text-gray-800',
+        'sticky top-0 z-50 w-full transition-all duration-300 bg-white text-gray-800',
+        isScrolled ? 'shadow-md' : '',
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
@@ -101,7 +101,7 @@ export default function Header() {
                         onClick={closeMobileMenu}
                         className={cn(
                           'px-4 py-3 rounded-md font-medium transition-colors hover:bg-gray-100',
-                           pathname === link.href ? 'text-blue-600 bg-gray-100' : ''
+                           pathname === link.href ? 'text-blue-600 bg-gray-100' : 'text-gray-800'
                         )}
                       >
                         {link.label}
