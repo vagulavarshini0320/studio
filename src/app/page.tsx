@@ -33,7 +33,12 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
         <div className="hero-gradient-background absolute inset-0 z-[-1]">
-          <div className="aurora-background"></div>
+          <div className="aurora-background">
+            <div className="aurora-blob"></div>
+            <div className="aurora-blob"></div>
+            <div className="aurora-blob"></div>
+            <div className="aurora-blob"></div>
+          </div>
         </div>
         
         <div className="container mx-auto px-4 md:px-6">
