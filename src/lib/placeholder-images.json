@@ -45,13 +45,13 @@
     {
       "id": "project5",
       "description": "AI Task Automation",
-      "imageUrl": "https://images.unsplash.com/photo-1600132806376-bf4e72453df6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JrZmxvdyUyMGF1dG9tYXRpb258ZW58MHx8fHwxNzY2OTY0NDMwfDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageUrl": "/ai.png",
       "imageHint": "automation ui"
     },
     {
       "id": "project6",
       "description": "Business CRM",
-      "imageUrl": "https://images.unsplash.com/photo-1634033483901-59160d5b0357?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcm0lMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzY2OTY0NDU0fDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageUrl": "/crm.png",
       "imageHint": "crm dashboard"
     }
   ]
