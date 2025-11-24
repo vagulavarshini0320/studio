@@ -7,6 +7,7 @@ import { services } from './services/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 import RotatingText from '@/components/RotatingText';
+import TypingEffect from '@/components/TypingEffect';
 
 const founderImage = PlaceHolderImages.find(p => p.id === 'founder');
 
@@ -49,9 +50,10 @@ export default function Home() {
                 <br />
                 <RotatingText words={rotatingWords} />
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 h-auto">
-                We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology.
-              </p>
+              <TypingEffect
+                className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 min-h-[60px] md:min-h-[3rem]"
+                text="We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology."
+              />
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">Request a Demo</Link>
