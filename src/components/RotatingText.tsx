@@ -9,10 +9,10 @@ interface RotatingTextProps {
 
 export default function RotatingText({ words, className }: RotatingTextProps) {
   return (
-    <span className={cn("relative inline-block text-primary h-16 md:h-20 overflow-hidden text-center", className)}>
+    <span className={cn("relative inline-block text-primary h-16 md:h-20 overflow-hidden", className)}>
         <span className="rotating-text-word-container">
             {words.map((word) => (
-                <span key={word} className="rotating-text-word leading-tight tracking-tighter">
+                <span key={word} className="rotating-text-word">
                     {word}
                 </span>
             ))}
