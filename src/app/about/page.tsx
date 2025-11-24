@@ -21,7 +21,7 @@ export default function AboutPage() {
           <AnimatedSection>
             <div className="flex justify-center">
               <Image
-                src="/pr.webp"
+                src="/pr.png"
                 alt="Photo of the founder, Vishwa Raja"
                 width={400}
                 height={400}
