@@ -20,7 +20,7 @@ export default function RotatingText({ words, className }: RotatingTextProps) {
   }, [words.length]);
 
   return (
-    <span className={cn("relative inline-block text-primary h-10 sm:h-12 md:h-16 overflow-hidden align-bottom", className)}>
+    <span className={cn("relative inline-block text-primary h-12 sm:h-14 md:h-16 overflow-hidden align-bottom", className)}>
         <span className="rotating-text-word-container">
             {words.map((word, i) => (
                 <span 
