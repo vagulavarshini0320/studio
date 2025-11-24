@@ -9,7 +9,7 @@ export default function AboutPage() {
       <div className="container mx-auto px-4 md:px-6">
         
         <AnimatedSection className="text-center">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+          <h1 className="font-headline text-4xl sm:text-5xl font-bold tracking-tighter mb-4">
             Engineering Digital Solutions
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-16">
@@ -41,9 +41,9 @@ export default function AboutPage() {
           </AnimatedSection>
         </div>
 
-        <div className="text-center mb-20 bg-muted/30 py-20 rounded-xl">
+        <div className="text-center mb-20 bg-muted/30 py-12 sm:py-20 rounded-xl">
           <h2 className="font-headline text-3xl font-bold mb-12">Our Core Principles</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-8">
             <AnimatedSection delay={100}>
               <Card className="animated-card h-full text-left bg-card border group relative">
                  <div className="glow-border absolute inset-0 bg-primary/20 rounded-lg blur-2xl"></div>

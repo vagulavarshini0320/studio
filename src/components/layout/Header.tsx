@@ -45,11 +45,12 @@ export default function Header() {
           <Image 
             src="/logo.png" 
             alt="VV Software Developer Logo" 
-            width={50} 
-            height={50} 
+            width={40} 
+            height={40} 
             data-ai-hint="W logo"
           />
-          <span className="text-xl font-bold font-headline">VV Software Developer</span>
+          <span className="text-lg font-bold font-headline hidden sm:inline-block">VV Software Developer</span>
+           <span className="text-lg font-bold font-headline sm:hidden">VVS</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-2">
@@ -67,7 +68,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4">
           <Button asChild className="hidden sm:inline-flex">
             <Link href="/contact">Get Quote</Link>
           </Button>
@@ -81,19 +82,19 @@ export default function Header() {
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] bg-background p-0">
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center justify-between p-4 border-b">
+                  <div className="flex items-center justify-start p-4 border-b">
                      <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
                        <Image 
                         src="/logo.png" 
                         alt="VV Software Developer Logo" 
-                        width={50} 
-                        height={50}
+                        width={40} 
+                        height={40}
                         data-ai-hint="W logo"
                       />
-                      <span className="text-xl font-bold font-headline">VV Software Developer</span>
+                      <span className="text-lg font-bold font-headline">VV Software</span>
                     </Link>
                   </div>
-                  <nav className="flex flex-col gap-2 p-4 text-lg">
+                  <nav className="flex flex-col gap-2 p-4 text-base">
                     {navLinks.map((link) => (
                       <Link
                         key={link.href}

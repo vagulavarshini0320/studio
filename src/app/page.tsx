@@ -42,12 +42,12 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center">
             <AnimatedSection className="flex flex-col items-center">
-              <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6">
+              <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6">
                 Enterprise Software Solutions for
                 <br />
                 <RotatingText words={rotatingWords} />
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 h-12 md:h-auto">
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 h-auto">
                 We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">

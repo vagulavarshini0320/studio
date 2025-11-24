@@ -10,7 +10,7 @@ export default function ProjectsPage() {
     <div className="section-padding">
       <div className="container mx-auto px-4 md:px-6">
         <AnimatedSection className="text-center">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+          <h1 className="font-headline text-4xl sm:text-5xl font-bold tracking-tighter mb-4">
             Our Portfolio
           </h1>
           <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto mb-12">
@@ -39,7 +39,7 @@ export default function ProjectsPage() {
                     <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground text-sm mb-4 h-20">{project.description}</p>
+                    <p className="text-muted-foreground text-sm mb-4 min-h-[4rem]">{project.description}</p>
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map(tag => (
                         <Badge key={tag} variant="secondary">{tag}</Badge>

@@ -15,18 +15,18 @@ export default function Footer() {
   return (
     <footer className="bg-muted/30 border-t">
       <div className="container mx-auto px-4 md:px-6 py-12">
-        <div className="grid gap-12 md:grid-cols-12">
-          <div className="flex flex-col gap-4 md:col-span-4">
+        <div className="grid gap-12 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-12">
+          <div className="flex flex-col gap-4 lg:col-span-4">
             <Link href="/" className="flex items-center gap-2">
               <Image 
                 src="/logo.png" 
                 alt="VV Software Developer Logo"
-                width={50} 
-                height={50}
+                width={40} 
+                height={40}
                 className="rounded-sm"
                 data-ai-hint="W logo"
               />
-              <span className="text-xl font-bold font-headline">VV Software Developer</span>
+              <span className="text-lg font-bold font-headline">VV Software Developer</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
               Engineering enterprise-grade software solutions for a complex world.
@@ -44,8 +44,8 @@ export default function Footer() {
             </div>
           </div>
           
-          <div className="md:col-span-2">
-            <h3 className="font-headline text-lg font-semibold mb-4">Company</h3>
+          <div className="lg:col-span-2">
+            <h3 className="font-headline text-base font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
@@ -57,16 +57,16 @@ export default function Footer() {
             </ul>
           </div>
           
-          <div className="md:col-span-3">
-             <h3 className="font-headline text-lg font-semibold mb-4">Contact</h3>
+          <div className="lg:col-span-3">
+             <h3 className="font-headline text-base font-semibold mb-4">Contact</h3>
              <div className="space-y-3 text-sm">
-                <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground block hover:text-foreground transition-colors">vishwarajaofficial@gmail.com</a>
+                <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground block hover:text-foreground transition-colors break-all">vishwarajaofficial@gmail.com</a>
                 <a href="tel:893920811" className="text-muted-foreground block hover:text-foreground transition-colors">893920811</a>
              </div>
           </div>
 
-           <div className="md:col-span-3">
-             <h3 className="font-headline text-lg font-semibold mb-4">Legal</h3>
+           <div className="lg:col-span-3">
+             <h3 className="font-headline text-base font-semibold mb-4">Legal</h3>
              <ul className="space-y-2">
                 <li>
                     <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Privacy Policy</Link>

@@ -19,7 +19,7 @@ export default function ServicesPage() {
     <div className="section-padding">
       <div className="container mx-auto px-4 md:px-6">
         <AnimatedSection className="text-center">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+          <h1 className="font-headline text-4xl sm:text-5xl font-bold tracking-tighter mb-4">
             Our Service Offerings
           </h1>
           <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto mb-12">
@@ -50,14 +50,14 @@ export default function ServicesPage() {
         </div>
 
         <AnimatedSection>
-          <div className="relative rounded-xl bg-muted/30 p-8 md:p-16 overflow-hidden">
+          <div className="relative rounded-xl bg-muted/30 p-8 md:p-12 lg:p-16 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h2 className="font-headline text-3xl font-bold mb-4">Standard Inclusions</h2>
                 <p className="text-muted-foreground mb-6">
                   Every project is built on a foundation of quality, scalability, and robust engineering principles to ensure long-term success and maintainability.
                 </p>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4">
                   {includedFeatures.map((feature) => (
                     <li key={feature} className="flex items-center gap-3">
                       <div className="bg-primary/10 p-1 rounded-full border border-primary/20">

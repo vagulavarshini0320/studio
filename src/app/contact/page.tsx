@@ -23,7 +23,7 @@ export default function ContactPage() {
     <div className="section-padding">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter mb-4">
+          <h1 className="font-headline text-4xl sm:text-5xl font-bold tracking-tighter mb-4">
             Contact Us
           </h1>
           <p className="text-lg text-muted-foreground text-center max-w-2xl mx-auto mb-12">
@@ -32,8 +32,8 @@ export default function ContactPage() {
         </div>
         
         <div className="flex justify-center">
-          <div className="lg:col-span-2 space-y-8">
-            <div className="relative p-8 rounded-lg bg-card border group">
+          <div className="w-full max-w-md">
+            <div className="relative p-6 sm:p-8 rounded-lg bg-card border">
               <h2 className="font-headline text-3xl font-bold mb-6">Contact Information</h2>
               <div className="space-y-6">
                   <div className="flex items-start gap-4">
@@ -42,7 +42,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                           <h3 className="font-semibold text-lg">Email</h3>
-                          <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">vishwarajaofficial@gmail.com</a>
+                          <a href="mailto:vishwarajaofficial@gmail.com" className="text-muted-foreground hover:text-primary transition-colors break-all">vishwarajaofficial@gmail.com</a>
                       </div>
                   </div>
                   <div className="flex items-start gap-4">
