@@ -9,6 +9,9 @@ import { Inter, Space_Grotesk, Fira_Code } from 'next/font/google'
 export const metadata: Metadata = {
   title: 'VV Software Solutions',
   description: 'Building Smart Solutions for a Smarter Future',
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 const fontBody = Inter({
