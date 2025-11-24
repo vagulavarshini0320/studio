@@ -178,7 +178,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    animation: move-stars 20s linear infinite;
+    animation: move-stars 4s linear infinite;
   }
 
   .stars.stars2 {
@@ -195,7 +195,7 @@
                       radial-gradient(var(--dot-size) var(--dot-size) at 5px 30px, var(--dot-color) 100%, transparent);
     background-position: 0px 0px;
     background-size: 50px 50px;
-    animation-duration: 40s;
+    animation-duration: 8s;
   }
 
   .stars.stars3 {
@@ -209,15 +209,24 @@
                       radial-gradient(var(--dot-size) var(--dot-size) at 140px 10px, var(--dot-color) 100%, transparent);
     background-position: 0px 0px;
     background-size: 75px 75px;
-    animation-duration: 60s;
+    animation-duration: 12s;
   }
 
   @keyframes move-stars {
-    from {
-      transform: translateY(0px);
+    0% {
+      transform: translate(0, 0);
     }
-    to {
-      transform: translateY(-200px);
+    25% {
+      transform: translate(10px, -50px);
+    }
+    50% {
+      transform: translate(-10px, -100px);
+    }
+    75% {
+      transform: translate(10px, -150px);
+    }
+    100% {
+      transform: translate(0, -200px);
     }
   }
 }
