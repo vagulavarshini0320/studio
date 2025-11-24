@@ -62,7 +62,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                           <h3 className="font-semibold text-lg">WhatsApp</h3>
-                          <a href="https://wa.me/91893920811" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">Connect on WhatsApp</a>
+                          <a href="https://wa.link/bp7f81" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">Connect on WhatsApp</a>
                       </div>
                   </div>
               </div>
