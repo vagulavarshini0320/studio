@@ -21,8 +21,8 @@ export default function Footer() {
               <Image 
                 src="/logo.png" 
                 alt="VV Software Developer Logo"
-                width={40} 
-                height={40}
+                width={50} 
+                height={50}
                 className="rounded-sm"
                 data-ai-hint="W logo"
               />
