@@ -7,7 +7,6 @@ import { services } from './services/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 import RotatingText from '@/components/RotatingText';
-import MatrixRain from '@/components/MatrixRain';
 
 const founderImage = PlaceHolderImages.find(p => p.id === 'founder');
 
@@ -33,7 +32,6 @@ export default function Home() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
-        <MatrixRain />
         <div className="absolute inset-0 z-[-1] hero-gradient-background">
         </div>
         
