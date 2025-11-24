@@ -33,11 +33,6 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-[-1] hero-gradient-background">
-           <div id="star-field">
-              <div className="stars"></div>
-              <div className="stars stars2"></div>
-              <div className="stars stars3"></div>
-           </div>
         </div>
         
         <div className="container mx-auto px-4 md:px-6">
