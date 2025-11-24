@@ -14,21 +14,24 @@ export default function RotatingText({ words, className }: RotatingTextProps) {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % words.length);
-    }, 2000); // Change word every 2 seconds
+    }, 4000); // Change word every 4 seconds, matches animation duration
 
     return () => clearInterval(interval);
   }, [words.length]);
 
   return (
-    <span className={cn("relative inline-block text-primary h-12 sm:h-14 md:h-16 overflow-hidden align-bottom", className)}>
+    <span className={cn("relative inline-block text-primary h-12 sm:h-14 md:h-20 overflow-hidden align-bottom", className)}>
         <span className="rotating-text-word-container">
             {words.map((word, i) => (
                 <span 
                     key={word} 
                     className={cn(
                         "rotating-text-word",
-                        i === index ? 'animate-fade-in' : 'animate-fade-out'
                     )}
+                    style={{
+                        animationDelay: `${i === index ? '0s' : '-4s'}`,
+                        opacity: i === index ? 1 : 0
+                    }}
                 >
                     {word}
                 </span>

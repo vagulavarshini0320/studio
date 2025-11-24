@@ -116,6 +116,10 @@
 }
 
 @layer utilities {
+  .hero-gradient-background {
+    @apply bg-gradient-to-br from-background via-primary/5 to-background animate-background-pan;
+    background-size: 200% 200%;
+  }
   .rotating-text-word-container {
       position: relative;
   }
@@ -125,43 +129,20 @@
     width: 100%;
     left: 0;
     opacity: 0;
-    transform: translateY(1rem);
-    filter: blur(4px);
-    animation-fill-mode: forwards;
+    transform-origin: center center;
+    animation: text-rotate-in-out 4s ease-in-out infinite;
   }
 
-  .animate-fade-in {
-    animation: fade-in 1s ease-out forwards;
-  }
-
-  .animate-fade-out {
-    animation: fade-out 1s ease-in forwards;
-    animation-delay: 1s; /* Match the interval for a smooth transition */
-  }
-
-  @keyframes fade-in {
-    0% {
+  @keyframes text-rotate-in-out {
+    0%, 100% {
       opacity: 0;
-      transform: translateY(1rem);
+      transform: translateY(1rem) scale(0.9);
       filter: blur(4px);
     }
-    100% {
+    25%, 75% {
       opacity: 1;
-      transform: translateY(0);
+      transform: translateY(0) scale(1);
       filter: blur(0);
-    }
-  }
-
-  @keyframes fade-out {
-    0% {
-      opacity: 1;
-      transform: translateY(0);
-      filter: blur(0);
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(-1rem);
-      filter: blur(4px);
     }
   }
 }

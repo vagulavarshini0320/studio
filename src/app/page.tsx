@@ -32,13 +32,13 @@ export default function Home() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-[-1] bg-background">
+        <div className="absolute inset-0 z-[-1] hero-gradient-background">
         </div>
         
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center">
             <AnimatedSection className="flex flex-col items-center">
-              <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-6">
+              <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6">
                 Enterprise Software Solutions for
                 <br />
                 <RotatingText words={rotatingWords} />
