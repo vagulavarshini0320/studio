@@ -213,20 +213,11 @@
   }
 
   @keyframes move-stars {
-    0% {
-      transform: translate(0, 0);
+    from {
+      transform: translateY(0);
     }
-    25% {
-      transform: translate(10px, -50px);
-    }
-    50% {
-      transform: translate(-10px, -100px);
-    }
-    75% {
-      transform: translate(10px, -150px);
-    }
-    100% {
-      transform: translate(0, -200px);
+    to {
+      transform: translateY(-200px);
     }
   }
 }
