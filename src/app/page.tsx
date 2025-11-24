@@ -45,10 +45,10 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center">
             <AnimatedSection className="flex flex-col items-center">
-              <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4">
+              <h1 className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
                  Enterprise Software Solutions
               </h1>
-              <RotatingText words={rotatingWords} className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6 h-16 sm:h-20 md:h-24" />
+              <RotatingText words={rotatingWords} className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6 mt-2 h-16 sm:h-20 md:h-24" />
               <TypingEffect
                 className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 min-h-[60px] md:min-h-[3rem]"
                 text="We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology."
