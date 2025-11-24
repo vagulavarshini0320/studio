@@ -13,7 +13,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 262 82% 57%;
+    --primary: 150 70% 45%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -42,7 +42,7 @@
   }
  
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 220 15% 5%;
     --foreground: 210 40% 98%;
     
     --card: 240 5.9% 10%;
@@ -51,7 +51,7 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 210 40% 98%;
     
-    --primary: 262 82% 57%;
+    --primary: 150 70% 45%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 240 3.7% 15.9%;
@@ -68,9 +68,9 @@
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 262 82% 57%;
+    --ring: 150 70% 45%;
     
-    --chart-1: 250 70% 60%;
+    --chart-1: 150 70% 60%;
     --chart-2: 180 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
@@ -116,15 +116,19 @@
 }
 
 @layer utilities {
-  .animate-background-pan {
-    background: linear-gradient(
-      -45deg,
-      hsl(var(--background)),
-      hsl(240, 30%, 15%),
-      hsl(var(--background))
-    );
-    background-size: 200% 200%;
-    animation: background-pan 25s ease-in-out infinite;
+  .animate-hacking-effect {
+    background:
+      linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+      repeating-linear-gradient(0deg, hsl(var(--primary) / 0.15), hsl(var(--primary) / 0.15) 1px, transparent 1px, transparent 2px),
+      repeating-linear-gradient(90deg, hsl(var(--primary) / 0.1), hsl(var(--primary) / 0.1) 1px, transparent 1px, transparent 2px),
+      hsl(var(--background));
+    background-size: 100% 100%, 50px 50px, 50px 50px, 100% 100%;
+    animation: scanlines 20s linear infinite;
+  }
+
+  @keyframes scanlines {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
   }
   
   .btn-gradient {
@@ -138,12 +142,6 @@
   }
 
   @keyframes gradient-animation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-
-  @keyframes background-pan {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
