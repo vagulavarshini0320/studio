@@ -14,10 +14,11 @@ export default function Home() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-[-1] animate-background-pan bg-gradient-to-br from-primary/10 via-background to-secondary/10">
-           <div className="absolute top-[10%] left-[5%] h-48 w-48 rounded-full bg-primary/20 blur-3xl animate-blob"></div>
-           <div className="absolute top-[20%] right-[10%] h-64 w-64 rounded-full bg-secondary/20 blur-3xl animate-blob animation-delay-2000"></div>
-           <div className="absolute bottom-[15%] left-[20%] h-40 w-40 rounded-full bg-primary/10 blur-3xl animate-blob animation-delay-4000"></div>
+        <div className="absolute inset-0 z-[-1] bg-background">
+          <div className="absolute top-[10%] left-[5%] h-48 w-48 rounded-full bg-[hsl(var(--blob-blue)/_0.15)] blur-3xl animate-blob"></div>
+          <div className="absolute top-[20%] right-[10%] h-64 w-64 rounded-full bg-[hsl(var(--blob-red)/_0.15)] blur-3xl animate-blob animation-delay-2000"></div>
+          <div className="absolute bottom-[15%] left-[20%] h-40 w-40 rounded-full bg-[hsl(var(--blob-green)/_0.15)] blur-3xl animate-blob animation-delay-4000"></div>
+          <div className="absolute bottom-[5%] right-[25%] h-56 w-56 rounded-full bg-[hsl(var(--blob-yellow)/_0.15)] blur-3xl animate-blob animation-delay-6000"></div>
         </div>
         
         <div className="container mx-auto px-4 md:px-6">

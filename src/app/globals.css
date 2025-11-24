@@ -39,6 +39,11 @@
     --chart-3: 35 91% 54%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
+    --blob-red: 0 72% 51%;
+    --blob-blue: 221 83% 53%;
+    --blob-green: 142 76% 36%;
+    --blob-yellow: 45 100% 51%;
   }
  
   .dark {
@@ -152,5 +157,8 @@
   }
   .animation-delay-4000 {
     animation-delay: 4s;
+  }
+  .animation-delay-6000 {
+    animation-delay: 6s;
   }
 }
