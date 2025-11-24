@@ -15,8 +15,8 @@
     {
       "id": "hero",
       "description": "Hero image for the landing page",
-      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc2NTU5OTYxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "software code"
+      "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYXB0b3B8ZW58MHx8fHwxNzcwMDMwOTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop desk"
     },
     {
       "id": "project1",
