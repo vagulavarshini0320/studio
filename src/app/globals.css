@@ -159,7 +159,7 @@
   
   .stars {
     --dot-size: 1px;
-    --dot-color: hsl(var(--chart-1) / 0.5);
+    --dot-color: hsl(var(--chart-1) / 0.8);
     background-image: radial-gradient(var(--dot-size) var(--dot-size) at 10px 10px, var(--dot-color) 100%, transparent),
                       radial-gradient(var(--dot-size) var(--dot-size) at 5px 20px, var(--dot-color) 100%, transparent),
                       radial-gradient(var(--dot-size) var(--dot-size) at 25px 5px, var(--dot-color) 100%, transparent),
@@ -183,7 +183,7 @@
 
   .stars.stars2 {
     --dot-size: 1px;
-    --dot-color: hsl(var(--chart-2) / 0.5);
+    --dot-color: hsl(var(--chart-2) / 0.8);
     background-image: radial-gradient(var(--dot-size) var(--dot-size) at 20px 50px, var(--dot-color) 100%, transparent),
                       radial-gradient(var(--dot-size) var(--dot-size) at 60px 10px, var(--dot-color) 100%, transparent),
                       radial-gradient(var(--dot-size) var(--dot-size) at 90px 40px, var(--dot-color) 100%, transparent),
@@ -199,8 +199,8 @@
   }
 
   .stars.stars3 {
-    --dot-size: 2px;
-    --dot-color: hsl(var(--chart-4) / 0.3);
+    --dot-size: 1px;
+    --dot-color: hsl(var(--chart-4) / 0.7);
     background-image: radial-gradient(var(--dot-size) var(--dot-size) at 50px 25px, var(--dot-color) 100%, transparent),
                       radial-gradient(var(--dot-size) var(--dot-size) at 125px 75px, var(--dot-color) 100%, transparent),
                       radial-gradient(var(--dot-size) var(--dot-size) at 20px 110px, var(--dot-color) 100%, transparent),
