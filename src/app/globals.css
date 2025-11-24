@@ -139,29 +139,24 @@
     left: 0;
     opacity: 0;
     transform-origin: center center;
-    animation: text-rotate-in-out 4s ease-in-out infinite;
-  }
-  
-  .animation-delay-2000 {
-    animation-delay: 2s;
-  }
-  .animation-delay-4000 {
-    animation-delay: 4s;
-  }
-  .animation-delay-6000 {
-    animation-delay: 6s;
+    animation: text-rotate-in-out 4s ease-in-out;
   }
 
   @keyframes text-rotate-in-out {
-    0%, 100% {
+    0% {
       opacity: 0;
-      transform: translateY(1rem) scale(0.9);
-      filter: blur(4px);
+      transform: translateY(1.5rem) scale(0.95);
+      filter: blur(5px);
     }
-    25%, 75% {
+    15%, 85% {
       opacity: 1;
       transform: translateY(0) scale(1);
       filter: blur(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-1.5rem) scale(0.95);
+      filter: blur(5px);
     }
   }
 }

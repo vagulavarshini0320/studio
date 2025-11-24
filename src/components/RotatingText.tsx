@@ -9,33 +9,33 @@ interface RotatingTextProps {
 }
 
 export default function RotatingText({ words, className }: RotatingTextProps) {
-  const [index, setIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prevIndex) => (prevIndex + 1) % words.length);
-    }, 4000); // Change word every 4 seconds, matches animation duration
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length);
+    }, 4000); // This duration must match the animation duration in globals.css
 
     return () => clearInterval(interval);
   }, [words.length]);
 
   return (
     <span className={cn("relative inline-block text-primary h-12 sm:h-14 md:h-20 overflow-hidden align-bottom", className)}>
-        <span className="rotating-text-word-container">
-            {words.map((word, i) => (
-                <span 
-                    key={word} 
-                    className={cn(
-                        "rotating-text-word",
-                    )}
-                    style={{
-                        animationDelay: `${i === index ? '0s' : '-4s'}`,
-                        opacity: i === index ? 1 : 0
-                    }}
-                >
-                    {word}
-                </span>
-            ))}
+      <span className="rotating-text-word-container">
+        {words.map((word, i) => (
+          <span
+            key={word}
+            className={cn(
+              "rotating-text-word",
+              i === currentIndex ? "animate" : ""
+            )}
+            style={{
+              animationPlayState: i === currentIndex ? 'running' : 'paused'
+            }}
+          >
+            {word}
+          </span>
+        ))}
       </span>
     </span>
   );
