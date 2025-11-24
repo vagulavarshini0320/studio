@@ -34,7 +34,7 @@ export const projects: Project[] = [
     title: 'AI Task Automation',
     description: 'A platform that automates repetitive business tasks using AI agents, improving efficiency and reducing operational costs.',
     tags: ['Vue.js', 'Python', 'n8n', 'Genkit', 'Automation'],
-    imageId: 'project5',
+imageId: 'project5',
   },
   {
     title: 'Business CRM',
