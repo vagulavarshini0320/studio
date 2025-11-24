@@ -30,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={cn(fontBody.variable, fontHeadline.variable, "font-body antialiased animate-hacking-effect")}>
+    <html lang="en">
+      <body className={cn(fontBody.variable, fontHeadline.variable, "font-body antialiased")}>
         <Header />
         <main className="min-h-screen">
           {children}

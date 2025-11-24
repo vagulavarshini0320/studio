@@ -101,7 +101,7 @@ export default function Header() {
                         onClick={closeMobileMenu}
                         className={cn(
                           'px-4 py-3 rounded-md font-medium transition-colors hover:bg-gray-100',
-                           pathname === link.href ? 'text-blue-600 bg-gray-100' : 'text-gray-800'
+                           pathname === link.href ? 'text-primary bg-primary/10' : 'text-gray-800'
                         )}
                       >
                         {link.label}
