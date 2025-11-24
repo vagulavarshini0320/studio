@@ -42,22 +42,22 @@
   }
  
   .dark {
-    --background: 224 71% 4%;
+    --background: 226 25% 10%;
     --foreground: 210 40% 98%;
     
-    --card: 224 71% 6%;
+    --card: 224 24% 14%;
     --card-foreground: 210 40% 98%;
 
     --popover: 224 71% 4%;
     --popover-foreground: 210 40% 98%;
     
-    --primary: 210 40% 98%;
+    --primary: 250 80% 70%;
     --primary-foreground: 224 71% 4%;
 
     --secondary: 217 33% 17%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 217 33% 17%;
+    --muted: 217 33% 22%;
     --muted-foreground: 215 20% 65%;
 
     --accent: 217 33% 17%;
@@ -66,12 +66,12 @@
     --destructive: 0 63% 31%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 217 33% 17%;
+    --border: 217 33% 25%;
     --input: 217 33% 17%;
-    --ring: 210 40% 98%;
+    --ring: 250 80% 70%;
     
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
+    --chart-1: 250 70% 60%;
+    --chart-2: 180 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
@@ -105,7 +105,7 @@
     @apply transition-all duration-300;
   }
   .animated-card:hover {
-    @apply -translate-y-2 scale-[1.02] shadow-2xl shadow-primary/10;
+    @apply -translate-y-2 scale-[1.03] shadow-2xl shadow-primary/20;
   }
   .animated-card .glow-border {
      @apply opacity-0 transition-opacity duration-500;
@@ -120,7 +120,7 @@
     background: linear-gradient(
       -45deg,
       hsl(var(--background)),
-      hsl(var(--card)),
+      hsl(240, 30%, 15%),
       hsl(var(--background))
     );
     background-size: 200% 200%;
