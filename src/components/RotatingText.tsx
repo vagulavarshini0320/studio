@@ -20,13 +20,13 @@ export default function RotatingText({ words, className }: RotatingTextProps) {
   }, [words.length]);
 
   return (
-    <span className={cn("relative inline-block text-primary h-12 sm:h-14 md:h-20 overflow-hidden align-bottom", className)}>
+    <span className={cn("relative inline-block h-12 sm:h-14 md:h-20 overflow-hidden align-bottom", className)}>
       <span className="rotating-text-word-container">
         {words.map((word, i) => (
           <span
             key={word}
             className={cn(
-              "rotating-text-word",
+              "rotating-text-word text-primary", // The text-primary was the missing piece
               i === currentIndex ? "animate" : ""
             )}
             style={{
