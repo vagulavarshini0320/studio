@@ -6,6 +6,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { services } from './services/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, CheckCircle } from 'lucide-react';
+import TypingEffect from '@/components/TypingEffect';
 
 const founderImage = PlaceHolderImages.find(p => p.id === 'founder');
 
@@ -15,10 +16,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[calc(100vh-5rem)] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-[-1] bg-background">
-          <div className="absolute top-[10%] left-[5%] h-48 w-48 rounded-full bg-[hsl(var(--blob-blue)/_0.25)] blur-3xl animate-blob"></div>
-          <div className="absolute top-[20%] right-[10%] h-64 w-64 rounded-full bg-[hsl(var(--blob-red)/_0.25)] blur-3xl animate-blob animation-delay-2000"></div>
-          <div className="absolute bottom-[15%] left-[20%] h-40 w-40 rounded-full bg-[hsl(var(--blob-green)/_0.25)] blur-3xl animate-blob animation-delay-4000"></div>
-          <div className="absolute bottom-[5%] right-[25%] h-56 w-56 rounded-full bg-[hsl(var(--blob-yellow)/_0.25)] blur-3xl animate-blob animation-delay-6000"></div>
+           <div className="absolute top-[10%] left-[5%] h-48 w-48 rounded-full bg-[hsl(var(--blob-blue)/_0.45)] blur-3xl animate-blob"></div>
+          <div className="absolute top-[20%] right-[10%] h-64 w-64 rounded-full bg-[hsl(var(--blob-red)/_0.45)] blur-3xl animate-blob animation-delay-2000"></div>
+          <div className="absolute bottom-[15%] left-[20%] h-40 w-40 rounded-full bg-[hsl(var(--blob-green)/_0.45)] blur-3xl animate-blob animation-delay-4000"></div>
+          <div className="absolute bottom-[5%] right-[25%] h-56 w-56 rounded-full bg-[hsl(var(--blob-yellow)/_0.45)] blur-3xl animate-blob animation-delay-6000"></div>
         </div>
         
         <div className="container mx-auto px-4 md:px-6">
@@ -27,9 +28,10 @@ export default function Home() {
               <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6">
                 Enterprise Software Solutions
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-                We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology.
-              </p>
+              <TypingEffect
+                className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 h-24 md:h-14"
+                text="We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology."
+              />
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">Request a Demo</Link>
