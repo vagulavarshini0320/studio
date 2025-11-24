@@ -19,14 +19,16 @@ export default function AboutPage() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
           <AnimatedSection>
-            <Image
-              src="/pr.webp"
-              alt="Photo of the founder, Vishwa Raja"
-              width={600}
-              height={600}
-              className="rounded-lg object-cover shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25),_0_10px_10px_-5px_rgba(0,0,0,0.04)] w-full"
-              data-ai-hint="man portrait"
-            />
+            <div className="flex justify-center">
+              <Image
+                src="/pr.webp"
+                alt="Photo of the founder, Vishwa Raja"
+                width={400}
+                height={400}
+                className="rounded-lg object-cover shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25),_0_10px_10px_-5px_rgba(0,0,0,0.04)]"
+                data-ai-hint="man portrait"
+              />
+            </div>
           </AnimatedSection>
           <AnimatedSection delay={200}>
             <h2 className="font-headline text-3xl font-bold mb-4">Our Genesis</h2>
