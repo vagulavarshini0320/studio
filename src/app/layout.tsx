@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { cn } from '@/lib/utils';
-import { Inter, Space_Grotesk } from 'next/font/google'
+import { Inter, Space_Grotesk, Fira_Code } from 'next/font/google'
 
 export const metadata: Metadata = {
   title: 'VV Software Solutions',
@@ -23,6 +23,12 @@ const fontHeadline = Space_Grotesk({
   variable: '--font-headline',
 })
 
+const fontMono = Fira_Code({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-mono',
+})
+
 
 export default function RootLayout({
   children,
@@ -31,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(fontBody.variable, fontHeadline.variable, "font-body antialiased")}>
+      <body className={cn(fontBody.variable, fontHeadline.variable, fontMono.variable, "font-body antialiased")}>
         <Header />
         <main className="min-h-screen">
           {children}
