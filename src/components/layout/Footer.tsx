@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Github, Twitter, Linkedin } from 'lucide-react';
 import { Button } from '../ui/button';
 
 const navLinks = [
@@ -31,17 +30,6 @@ export default function Footer() {
             <p className="text-sm text-muted-foreground max-w-xs">
               Engineering enterprise-grade software solutions for a complex world.
             </p>
-            <div className="flex gap-1 mt-2">
-              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground hover:bg-accent" asChild>
-                <Link href="#"><Twitter className="w-5 h-5"/></Link>
-              </Button>
-              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground hover:bg-accent" asChild>
-                <Link href="#"><Github className="w-5 h-5"/></Link>
-              </Button>
-              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground hover:bg-accent" asChild>
-                <Link href="#"><Linkedin className="w-5 h-5"/></Link>
-              </Button>
-            </div>
           </div>
           
           <div className="lg:col-span-2">
