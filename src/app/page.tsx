@@ -50,7 +50,7 @@ export default function Home() {
               </h1>
               <RotatingText words={rotatingWords} className="font-headline text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6 mt-2 h-16 sm:h-20 md:h-24" />
               <TypingEffect
-                className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 min-h-[60px] md:min-h-[3rem]"
+                className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 min-h-[84px] sm:min-h-[60px] md:min-h-[3rem]"
                 text="We engineer high-performance software products that accelerate business growth through AI, automation, and robust, scalable technology."
               />
               <div className="flex flex-col sm:flex-row gap-4">
